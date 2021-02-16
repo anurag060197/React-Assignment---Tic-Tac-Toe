@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+  background-image: url("https://image.freepik.com/free-vector/elegant-golden-frame-black-background_1048-4682.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position:center;
+  
+}
+h2{
+  text-align: center;
+  color: crimson;
+  font-size: 2rem;;
+}
+#h2{
+  transform: rotate(180deg);
+}
+.col{
+  background-color: beige;
+  text-align: center;
+  font-size: 4rem;
+  display: inline-block;
+  border: black groove 1px;
+  height: 6rem;
+  width: 6rem;
+  cursor: pointer;
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+#turn{
+  color: gray;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
